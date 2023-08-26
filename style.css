@@ -1,0 +1,135 @@
+#food{
+    color: gray;
+}
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar h3{
+    color:red;
+  }
+  .navbar {
+    background-color:white;
+    color: white;
+  }
+  .login{
+    background-color: orangered;
+    border-radius: none;
+    color:white;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .nav-list li {
+    margin: 0 10px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .login input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .login button {
+    padding: 5px 10px;
+    background-color: #555;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .cart a {
+    position: relative;
+  }
+  .tiny{
+    background-color: lightcoral;
+  }
+  .cart::after {
+    content: '0'; /* You can set the actual cart count here */
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-inline: 10px;
+  }
+
+  img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  #btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: orangered;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .text {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .head{
+    text-align: center;
+  }
+  .navfood{
+justify-content: center;
+  }
+
